@@ -14,7 +14,7 @@ My work spans NLP/LLM applications, empirical data analysis, and machine-learnin
 
 ## Research highlights
 
-**MSc thesis — Detecting and Prioritizing User Concerns in Mobile Apps**  
+**[MSc thesis — Detecting and Prioritizing User Concerns in Mobile Apps](https://github.com/shimynimi/detecting-and-prioritizing-user-concerns)**  
 My master's thesis studied how user concerns can be identified and prioritized by combining app-store reviews with software issue-tracking data. The work explored NLP and machine-learning methods, text representations, clustering, and concern-prioritization signals derived from social and technical data.
 
 **Computational research on Major Depressive Disorder**  
@@ -24,6 +24,7 @@ I contributed to research using LLMs and NLP to investigate cognitive and lingui
 
 | Project | What it explores |
 | --- | --- |
+| [MSc Thesis: User Concern Prioritization](https://github.com/shimynimi/detecting-and-prioritizing-user-concerns) | Research on combining app reviews and software issue-tracking data to detect, cluster, and prioritize mobile-app concerns. |
 | [Persian Intent Recognition and Slot Filling](https://github.com/shimynimi/Persian-Intent-Recognition-and-Slot-Filling) | Persian-language intent classification and slot-filling experiments using the MASSIVE fa-IR dataset and NLP models. |
 | [Nearpod Sentiment and Topic Analysis](https://github.com/shimynimi/Sentiment-Analysis-of-Nearpod-App) | Exploratory analysis of educational-platform feedback using text preprocessing, sentiment analysis, and topic modelling. |
 | [Fake News Detection](https://github.com/shimynimi/Fake-News-Detection) | A classical text-classification baseline using TF–IDF features and logistic regression. |

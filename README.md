@@ -20,7 +20,7 @@ I am interested in research that connects careful empirical evaluation with mean
 My master's thesis studied how user concerns can be identified, grouped, and prioritized by combining app-store reviews with software issue-tracking data. The work explored text representations, NLP, clustering, machine-learning methods, and social and technical prioritization signals. The public repository currently provides a research summary; it does not claim to reproduce the thesis experiments.
 
 **Computational research on Major Depressive Disorder (MDD)**  
-I contributed to research using LLMs and NLP to investigate concept formation and cognitive and linguistic patterns associated with MDD. This work was presented as a poster at the **19th Swedish Cognitive Science Society Conference (SweCog 2024)**.
+I contributed to research using LLMs and NLP to investigate concept formation and cognitive and linguistic patterns associated with MDD. This work was presented as poster P42 at the **19th Swedish Cognitive Science Society Conference (SweCog 2024)**. The conference proceedings include the abstract, [“Identifying Thought Patterns in Major Depressive Disorder by Using Variational Inference and Large Language Models Integrated with Concept Space”](https://www.diva-portal.org/smash/get/diva2%3A1922045/FULLTEXT01.pdf).
 
 **AI for Mental Health: Bridging Language and Brain via Synthetic Data**  
 This project explored an AI-driven framework for longitudinal linguistic analysis and personalized mental-health monitoring, with an emphasis on explainability and privacy-preserving methods. It was presented at the **IEEE Women in Engineering International Leadership Summit (WIE ILS 2025)** at the University of West London.

@@ -35,7 +35,6 @@ These highlights describe research projects and conference presentations; they s
 | [Persian Intent Recognition and Slot Filling](https://github.com/shimynimi/Persian-Intent-Recognition-and-Slot-Filling) | Persian-language intent classification and slot-filling experiments using the MASSIVE `fa-IR` dataset, including a reproducible TF–IDF baseline with tests. |
 | [Nearpod Sentiment and Topic Analysis](https://github.com/shimynimi/Sentiment-Analysis-of-Nearpod-App) | Exploratory analysis of educational-platform feedback using text preprocessing, sentiment analysis, and topic modelling. |
 | [Fake News Detection](https://github.com/shimynimi/Fake-News-Detection) | Classical text-classification baseline using TF–IDF features and logistic regression, with evaluation caveats documented. |
-| [YouTube Channel and Video Analysis](https://github.com/shimynimi/Social-Media-Analysis) | Descriptive analysis of public YouTube channel and video statistics using Python and the YouTube Data API. |
 
 These repositories include research-oriented and exploratory/coursework projects. Each project's findings should be interpreted in the context of its data, experimental design, and limitations.
 

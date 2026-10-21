@@ -61,5 +61,4 @@ I am interested in research-assistant and PhD opportunities in NLP and LLMs, com
 ## Contact
 
 - **Email:** [shimarezai78@gmail.com](mailto:shimarezai78@gmail.com)
-- **LinkedIn:** [linkedin.com/in/shima-rezai](https://www.linkedin.com/in/shima-rezai)
 - **GitHub:** [github.com/shimynimi](https://github.com/shimynimi)

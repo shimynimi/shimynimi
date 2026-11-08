@@ -54,10 +54,6 @@ Sharif University of Technology · 2022–2025
 **B.Sc., Computer Engineering — Software Engineering**  
 Yazd University · 2018–2022 · Ranked first in the program
 
-## Research opportunities
-
-I am interested in research-assistant and PhD opportunities in NLP and LLMs, computational cognitive science, computational approaches to mental health, and AI for healthcare.
-
 ## Contact
 
 - **Email:** [shimarezai78@gmail.com](mailto:shimarezai78@gmail.com)

@@ -51,11 +51,13 @@ An exploratory research project investigating the relationship between affective
 
 ## Education
 
-**M.Sc., Computer Engineering — Algorithms & Computation**  
-Sharif University of Technology · 2022–2025
+**M.Sc. in Computer Engineering — Algorithms & Computation**  
+Sharif University of Technology · 2022–2025  
+GPA: **17.35/20**
 
-**B.Sc., Computer Engineering — Software Engineering**  
-Yazd University · 2018–2022 · Ranked first in the program
+**B.Sc. in Computer Engineering — Software Engineering**  
+Yazd University · 2018–2022  
+GPA: **17.91/20** · Ranked **1st among 90 students**
 
 ## Contact
 

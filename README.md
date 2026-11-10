@@ -19,8 +19,8 @@ I am interested in research that connects careful empirical evaluation with mean
 **[MSc thesis — Detecting and Prioritizing User Concerns in Mobile Apps](https://github.com/shimynimi/detecting-and-prioritizing-user-concerns)**  
 My master's thesis studied how user concerns can be identified, grouped, and prioritized by combining app-store reviews with software issue-tracking data. The work explored text representations, NLP, clustering, machine-learning methods, and social and technical prioritization signals. The public repository currently provides a research summary; it does not claim to reproduce the thesis experiments.
 
-**Computational research on Major Depressive Disorder (MDD)**  
-I contributed to research using LLMs and NLP to investigate concept formation and cognitive and linguistic patterns associated with MDD. This work was presented as poster P42 at the **19th Swedish Cognitive Science Society Conference (SweCog 2024)**. The conference proceedings include the abstract, **[“Identifying Thought Patterns in Major Depressive Disorder by Using Variational Inference and Large Language Models Integrated with Concept Space”](https://www-static.swecog.se/wp-content/uploads/2026/04/SweCog2024_Proceedings.pdf).**
+**[Computational research on Major Depressive Disorder (MDD)](https://github.com/shimynimi/MDD-Thought-Pattern-Modeling)**  
+I contributed to research using LLMs and NLP to investigate concept formation and cognitive and linguistic patterns associated with MDD. This work was presented as poster P42 at the **19th Swedish Cognitive Science Society Conference (SweCog 2024)**. The repository documents the poster framework and its stated methodology; it does not claim a complete reproducible implementation or clinical validation. [Conference proceedings](https://www-static.swecog.se/wp-content/uploads/2026/04/SweCog2024_Proceedings.pdf).
 
 **[AI for Mental Health: Bridging Language and Brain via Synthetic Data](https://drive.google.com/file/d/1Sh-u-KwgldcXNEfmPD4xQK7EbN74AvYG/view?usp=sharing)**  
 This project explored an AI-driven framework for longitudinal linguistic analysis and personalized mental-health monitoring, with an emphasis on explainability and privacy-preserving methods. It was presented at the **IEEE Women in Engineering International Leadership Summit (WIE ILS 2025)** at the University of West London.
@@ -31,6 +31,7 @@ These highlights describe research projects and conference presentations; they s
 
 | Project | Focus |
 | --- | --- |
+| [MDD Thought Pattern Modeling](https://github.com/shimynimi/MDD-Thought-Pattern-Modeling) | Documentation of a SweCog 2024 conference-poster framework combining concept-space representations, LLM-based generative modeling, and variational inference. |
 | [MSc thesis: User Concern Prioritization](https://github.com/shimynimi/detecting-and-prioritizing-user-concerns) | Research summary on combining app reviews and software issue-tracking data to detect, cluster, and prioritize mobile-app concerns. |
 | [Persian Intent Recognition and Slot Filling](https://github.com/shimynimi/Persian-Intent-Recognition-and-Slot-Filling) | Persian-language intent classification and slot-filling experiments using the MASSIVE `fa-IR` dataset, including a reproducible TF–IDF baseline with tests. |
 | [Nearpod Sentiment and Topic Analysis](https://github.com/shimynimi/Sentiment-Analysis-of-Nearpod-App) | Exploratory analysis of educational-platform feedback using text preprocessing, sentiment analysis, and topic modelling. |

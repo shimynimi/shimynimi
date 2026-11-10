@@ -27,6 +27,11 @@ This project explored an AI-driven framework for longitudinal linguistic analysi
 
 These highlights describe research projects and conference presentations; they should not be interpreted as claims of clinical validation or peer-reviewed journal publication where that has not been established.
 
+## Research directions in development
+
+**[Affective Features of Spontaneous Thought and Their Neural Correlates](https://github.com/shimynimi/shimynimi/blob/main/research-in-development/spontaneous-thought-fmri.md)**  
+Proposed exploratory secondary analysis of public think-aloud fMRI data (OpenNeuro ds006067), examining whether affective features of verbalized spontaneous thought are associated with BOLD activity after accounting for speech-related and motion-related factors. **This is a research proposal only:** data analysis has not started and no results are claimed. The dataset contains healthy adults and is not an MDD patient cohort.
+
 ## Selected public projects
 
 | Project | Focus |

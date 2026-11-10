@@ -1,55 +1,52 @@
 # Shima Rezai
 
-### Machine Learning · NLP & LLMs · Computational Cognition & Mental Health
+### Machine Learning · NLP & LLMs · Computational Modelling
 
-I am a computer engineer with an M.Sc. in Computer Engineering (Algorithms & Computation) from **Sharif University of Technology**. My research interests sit at the intersection of **machine learning, language, cognition, and mental health**, with a focus on computational methods for studying human-centered problems.
+I am a computer engineer and machine learning researcher with an M.Sc. in Computer Engineering (Algorithms & Computation) from Sharif University of Technology. I also hold a B.Sc. in Computer Engineering from Yazd University, where I graduated first in my cohort.
 
-I am interested in research that connects careful empirical evaluation with meaningful questions about people and technology—from language understanding and software-user feedback to cognitive and linguistic patterns relevant to mental health. I value transparent methods, reproducible experiments, and clear reporting of what results do—and do not—show.
+My background spans machine learning, deep learning, natural language processing, and large language models. Through academic research and applied projects, I have worked on language understanding, LLM-based systems, information retrieval, user feedback analysis, and computational modeling of cognitive patterns associated with mental health.
+
+I am particularly interested in developing and evaluating computational methods for complex real-world and scientific problems. My broader interests include intelligent systems, language and cognition, and the application of machine learning to interdisciplinary research.
 
 ## Research interests
 
-- Natural language processing (NLP), large language models (LLMs), and computational linguistics
-- Machine learning, text mining, and explainable AI
-- Computational approaches to cognition, concept formation, and semantic representations
-- AI for mental health and digital health, including privacy-aware linguistic analysis
-- Human-centered AI and data-driven decision support
+- **Machine Learning & Deep Learning**
+- **Natural Language Processing, Large Language Models & Generative AI**
+- **Information Retrieval & Knowledge-Enhanced NLP**
+- **Computational Modeling of Language, Cognition & Mental Health**
 
 ## Research highlights
 
-**[MSc thesis — Detecting and Prioritizing User Concerns in Mobile Apps](https://github.com/shimynimi/detecting-and-prioritizing-user-concerns)**  
-My master's thesis studied how user concerns can be identified, grouped, and prioritized by combining app-store reviews with software issue-tracking data. The work explored text representations, NLP, clustering, machine-learning methods, and social and technical prioritization signals. The public repository currently provides a research summary; it does not claim to reproduce the thesis experiments.
-
-**[Computational research on Major Depressive Disorder (MDD)](https://github.com/shimynimi/MDD-Thought-Pattern-Modeling)**  
-I contributed to research using LLMs and NLP to investigate concept formation and cognitive and linguistic patterns associated with MDD. This work was presented as poster P42 at the **19th Swedish Cognitive Science Society Conference (SweCog 2024)**. The repository documents the poster framework and its stated methodology; it does not claim a complete reproducible implementation or clinical validation. [Conference proceedings](https://www-static.swecog.se/wp-content/uploads/2026/04/SweCog2024_Proceedings.pdf).
+**[M.Sc. Thesis — Detecting and Prioritizing User Concerns in Mobile Apps](https://github.com/shimynimi/detecting-and-prioritizing-user-concerns)**  
+My master's thesis at Sharif University of Technology investigated computational methods for identifying and prioritizing user concerns by integrating app-store reviews with software issue-tracking data. The research combined natural language processing, semantic representations, clustering, and machine learning to discover recurring concerns and assess their impact across application releases. I contributed to the research design, experimental implementation, evaluation, and analysis, including the development of a negativity-based prioritization measure. Random Forest and CatBoost achieved reported F1-scores of 0.83 in the thesis evaluation. 
 
 **[AI for Mental Health: Bridging Language and Brain via Synthetic Data](https://drive.google.com/file/d/1Sh-u-KwgldcXNEfmPD4xQK7EbN74AvYG/view?usp=sharing)**  
-This project explored an AI-driven framework for longitudinal linguistic analysis and personalized mental-health monitoring, with an emphasis on explainability and privacy-preserving methods. It was presented at the **IEEE Women in Engineering International Leadership Summit (WIE ILS 2025)** at the University of West London.
+Developed an AI-driven framework exploring the use of large language models and synthetic data for longitudinal linguistic analysis and personalized mental-health monitoring. The project focused on language-based approaches to studying patterns associated with depression, anxiety, and cognitive decline, with an emphasis on explainability and privacy-preserving methods. This work was presented at the **IEEE Women in Engineering International Leadership Summit (WIE ILS 2025)** at the University of West London.
 
-These highlights describe research projects and conference presentations; they should not be interpreted as claims of clinical validation or peer-reviewed journal publication where that has not been established.
+**[Computational Modeling of Thought Patterns in Major Depressive Disorder (MDD)](https://github.com/shimynimi/MDD-Thought-Pattern-Modeling)**  
+Co-authored a research project proposing a computational framework for modeling thought patterns associated with Major Depressive Disorder using large language models, concept-space representations, and variational inference. The framework explores the representation and inference of latent thought patterns from psychologist–patient conversational data. This work was presented as poster P42 at the **19th Swedish Cognitive Science Society Conference (SweCog 2024)**. 
 
-## Research directions in development
+## Research Directions in Development
 
 **[Affective Features of Spontaneous Thought and Their Neural Correlates](https://github.com/shimynimi/shimynimi/blob/main/research-in-development/spontaneous-thought-fmri.md)**  
-Proposed exploratory secondary analysis of public think-aloud fMRI data (OpenNeuro ds006067), examining whether affective features of verbalized spontaneous thought are associated with BOLD activity after accounting for speech-related and motion-related factors. **This is a research proposal only:** data analysis has not started and no results are claimed. The dataset contains healthy adults and is not an MDD patient cohort.
+*Proposed Research Project · Computational Neuroscience · fMRI · NLP*
 
-## Selected public projects
+An exploratory research project investigating the relationship between affective features of spontaneous thought and brain activity using publicly available think-aloud fMRI data (OpenNeuro ds006067). The proposed approach integrates NLP-based analysis of verbalized thoughts with neuroimaging and statistical modeling to explore associations between cognitive and affective processes and neural activity.
+
+## Selected Public Projects
 
 | Project | Focus |
 | --- | --- |
-| [MDD Thought Pattern Modeling](https://github.com/shimynimi/MDD-Thought-Pattern-Modeling) | Documentation of a SweCog 2024 conference-poster framework combining concept-space representations, LLM-based generative modeling, and variational inference. |
-| [MSc thesis: User Concern Prioritization](https://github.com/shimynimi/detecting-and-prioritizing-user-concerns) | Research summary on combining app reviews and software issue-tracking data to detect, cluster, and prioritize mobile-app concerns. |
-| [Persian Intent Recognition and Slot Filling](https://github.com/shimynimi/Persian-Intent-Recognition-and-Slot-Filling) | Persian-language intent classification and slot-filling experiments using the MASSIVE `fa-IR` dataset, including a reproducible TF–IDF baseline with tests. |
-| [Nearpod Sentiment and Topic Analysis](https://github.com/shimynimi/Sentiment-Analysis-of-Nearpod-App) | Exploratory analysis of educational-platform feedback using text preprocessing, sentiment analysis, and topic modelling. |
-| [Fake News Detection](https://github.com/shimynimi/Fake-News-Detection) | Classical text-classification baseline using TF–IDF features and logistic regression, with evaluation caveats documented. |
+| [Persian Intent Recognition and Slot Filling](https://github.com/shimynimi/Persian-Intent-Recognition-and-Slot-Filling) | Persian NLP using the MASSIVE `fa-IR` dataset, covering intent classification, slot filling, and intent-conditioned text generation. Includes a reproducible TF–IDF baseline and exploratory Transformer-based experiments. |
+| [Tehran Home Price Prediction](https://github.com/shimynimi/data_science_real_estate_project) | End-to-end machine learning application for real-estate price prediction, combining data analysis, predictive modeling, and a Flask-based web interface. |
+| [Nearpod Sentiment and Topic Analysis](https://github.com/shimynimi/Sentiment-Analysis-of-Nearpod-App) | Exploratory NLP project involving sentiment analysis, unsupervised topic modeling with LDA and CorEx, and thematic analysis of educational-platform feedback. |
 
-These repositories include research-oriented and exploratory/coursework projects. Each project's findings should be interpreted in the context of its data, experimental design, and limitations.
+## Technical Skills
 
-## Technical toolkit
-
-- **Languages:** Python, SQL, Java, C++
-- **Machine learning:** PyTorch, TensorFlow/Keras, scikit-learn
-- **NLP / LLMs:** Hugging Face Transformers, BERT, BART, GPT, embeddings, retrieval-augmented generation (RAG), sentiment and topic analysis
-- **Data analysis:** Pandas, NumPy, preprocessing, visualization, model evaluation
+- **Programming:** Python, SQL, Java, C++, MATLAB
+- **Machine Learning & Deep Learning:** PyTorch, TensorFlow, Keras, Scikit-learn
+- **NLP & LLMs:** Hugging Face Transformers, BERT, BART, GPT, RAG, LLM Fine-Tuning
+- **Data Science & Analytics:** Pandas, Data Mining, Data Preprocessing, Data Visualization, Power BI
 - **Tools:** Git, Jupyter Notebook
 
 ## Education

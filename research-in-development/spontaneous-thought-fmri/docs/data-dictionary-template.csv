@@ -1,0 +1,20 @@
+variable_name,source_file,level,description,unit_or_scale,time_reference,missingness_checked,notes
+participant_id,,,,,,,Use the public BIDS subject label; do not include names or direct identifiers.
+sentence_id,,,,,,,Create a stable within-participant sentence identifier after auditing source rows.
+sentence_onset,,,,seconds,Relative to first functional volume,No,Confirm source timestamp convention.
+sentence_end,,,,seconds,Relative to first functional volume,No,Confirm source timestamp convention.
+emotional_intensity,,,,-4 to +4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale in downloaded files.
+joy,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+sadness,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+fear,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+anger,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+disgust,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+surprise,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+anxiety,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+vision,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+audition,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+olfaction,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+gustation,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+somatosensation,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+interoception,,,,1 to 4 (reported in dataset descriptor),Sentence-level,No,Verify exact column name and scale.
+mean_framewise_displacement,,,,mm,Run-level,No,Use fMRIPrep confounds/QC output when available.

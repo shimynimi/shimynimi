@@ -28,7 +28,7 @@ Co-authored a research project proposing a computational framework for modeling 
 
 ## Research Directions in Development
 
-**[Affective Features of Spontaneous Thought and Their Neural Correlates](https://github.com/shimynimi/shimynimi/blob/main/research-in-development/spontaneous-thought-fmri.md)**  
+**[Affective and Sensory Dimensions of Spontaneous Thought: An NLP-Informed fMRI Study](https://github.com/shimynimi/shimynimi/tree/main/research-in-development/spontaneous-thought-fmri)**  
 *Proposed Research Project · Computational Neuroscience · fMRI · NLP*
 
 An exploratory research project investigating the relationship between affective features of spontaneous thought and brain activity using publicly available think-aloud fMRI data (OpenNeuro ds006067). The proposed approach integrates NLP-based analysis of verbalized thoughts with neuroimaging and statistical modeling to explore associations between cognitive and affective processes and neural activity.

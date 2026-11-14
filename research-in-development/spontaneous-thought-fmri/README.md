@@ -49,6 +49,7 @@ The provisional ROI candidates are medial prefrontal cortex (operationalized as 
 |---|---|
 | [`docs/research_protocol.md`](docs/research_protocol.md) | Full proposal, objectives, questions, and hypotheses |
 | [`docs/review_notes.md`](docs/review_notes.md) | Independent review findings and decisions before publication |
+| [`src/audit_bids_dataset.py`](src/audit_bids_dataset.py) | Preliminary BIDS file-inventory utility; not an fMRI QC or analysis pipeline |
 | [`docs/literature_review.md`](docs/literature_review.md) | Related work and scope of the research gap |
 | [`docs/dataset_and_qc.md`](docs/dataset_and_qc.md) | Data sources, variables, sample, quality, and inclusion plan |
 | [`docs/methodology.md`](docs/methodology.md) | Planned transcript-to-fMRI and ROI analysis workflow |

@@ -1,23 +1,16 @@
-# CV Entry — Proposal Stage
+# CV Entry — Completed Research-Protocol Development
 
-**Research Projects in Development**
+**Suggested CV section:** Selected Research Projects / Research Protocol Development
 
-**Sentence-Level Affective Content and Regional BOLD Activity During Verbalized Spontaneous Thought: A Proposed Secondary-Analysis Protocol**  
-*Proposed Independent Research Project | Computational Neuroscience · fMRI · NLP*
+**Sentence-Level Affective Content and Regional BOLD Activity During Verbalized Spontaneous Thought**  
+*Independent Research-Protocol Development | Computational Neuroscience · fMRI · NLP*
 
-Developing a secondary-analysis protocol using publicly available think-aloud fMRI data (OpenNeuro ds006067) and sentence-level affective annotations to investigate within-participant associations between verbalized thought content and regional BOLD activity. The planned methodology combines transcript–fMRI temporal alignment, event-related general linear modeling, motion-aware quality control, and independently defined region-of-interest analysis. The project is at the research-design stage; these methods are planned rather than completed.
+Completed the design and documentation of a proposed secondary-analysis protocol using publicly available think-aloud fMRI data (OpenNeuro ds006067). Developed the research question and focused literature positioning; documented the dataset and quality-control considerations; and specified a proposed workflow integrating sentence-level affective annotations, transcript–fMRI temporal alignment, event-related general linear modeling, motion-aware quality control, and independently defined region-of-interest analysis. Prepared statistical, robustness, data-governance, and reproducibility plans.
 
-**Status:** Research design and analysis protocol in development; empirical data analysis has not started.
+**Scope:** Research design and protocol documentation are complete. Empirical fMRI data analysis, statistical testing, and interpretation of neuroimaging results have not yet started.
 
----
+**Short CV version**
 
-## Shorter version (for a crowded CV)
+**Sentence-Level Affective Content and Regional BOLD Activity** — Completed independent research-protocol development for a proposed secondary analysis of OpenNeuro ds006067, integrating sentence-level affective annotations with a planned motion-aware, ROI-based fMRI GLM. *Empirical analysis not yet started.*
 
-**Sentence-Level Affective Content and Regional BOLD Activity** — Proposed Independent Research Project (Computational Neuroscience). Designing a secondary analysis of public think-aloud fMRI data (OpenNeuro ds006067), integrating sentence-level affective annotations, temporal alignment, and a planned motion-aware ROI-based GLM. *Empirical analysis pending.*
-
-## When the project has actually started
-
-Only after the corresponding work is complete, the status and bullets may be updated to name the completed steps (e.g., data audit, QC, first-level GLM, group analysis). Do not list Nilearn, ROI analysis, motion modeling, or statistical findings as completed skills/activities until they have been performed by the researcher.
-
-
-**Placement:** Include this entry under `Research Projects in Development` or `Ongoing Research Proposals`, not among completed research experience or publications.
+**Placement note:** This can appear as a completed research-design deliverable under Selected Research Projects or Research Protocol Development. Do not place it among completed empirical studies, publications, or completed neuroimaging analyses.

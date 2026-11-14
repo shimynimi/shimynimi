@@ -1,20 +1,19 @@
 # Sentence-Level Affective Content and Regional BOLD Activity During Verbalized Spontaneous Thought
 
-**Proposed reproducible secondary-analysis protocol using naturalistic think-aloud fMRI data**
+**Completed deliverable:** Research design and documentation package for a proposed reproducible secondary analysis of naturalistic think-aloud fMRI data.  
+**Research areas:** Computational Neuroscience · Cognitive Neuroscience · NLP · Neuroimaging  
+**Empirical study status:** fMRI data analysis has not started.  
+**Researcher:** Shima Rezai
 
-**Research area:** Computational Neuroscience · Cognitive Neuroscience · NLP · Neuroimaging  
-**Research status:** Proposed independent research project — research design and protocol development; empirical analysis has not started.  
-**Proposed researcher:** Shima Rezai
-
-> **Status statement:** This repository currently contains a proposed research protocol, not a preregistration, completed study, or executable analysis pipeline. No fMRI analysis, statistical testing, or scientific result has yet been produced. Do not describe the planned methods as completed work.
+> **Scope of completion:** The research question, focused literature review, dataset description, preliminary quality-control plan, methodological framework, statistical analysis plan, data-governance guidance, and reproducibility documentation have been prepared. This is a completed research-protocol deliverable, not a completed empirical fMRI study. No participant-level analysis, statistical result, or scientific finding is claimed.
 
 ## Project overview
 
-Spontaneous thought changes continuously in content and affective tone. Naturalistic think-aloud fMRI data make it possible to study how sentence-level features of verbalized thought relate to ongoing brain activity. This project proposes a secondary analysis of the public dataset **OpenNeuro ds006067 (version 2.0.0)** and its associated behavioral annotations on OSF.
+Spontaneous thought changes continuously in content and affective tone. Naturalistic think-aloud fMRI data provide an opportunity to study how sentence-level features of verbalized thought relate to ongoing brain activity. This project develops a documented secondary-analysis protocol using **OpenNeuro ds006067 (version 2.0.0)** and its associated behavioral annotations on OSF.
 
 The primary question is whether **within-participant variation in the dataset-defined sentence-level emotional-intensity rating** is associated with regional BOLD responses around verbalization, after modeling sentence/speech events and prespecified nuisance signals.
 
-The dataset labels this rating `emotional intensity` and scores it from −4 (very negative) to +4 (very positive), with neutral content near zero. Because the scale is signed, this project will preserve the dataset's terminology and treat it analytically as a **signed, valence-like affective-content score**. It will not be described as a direct measurement of the participant's subjective emotional state.
+The dataset labels this rating `emotional intensity` and scores it from −4 (very negative) to +4 (very positive), with neutral content near zero. Because the scale is signed, the protocol preserves the dataset's terminology and treats it analytically as a **signed, valence-like affective-content score**. It is not described as a direct measurement of the participant's subjective emotional state.
 
 ## Research question
 
@@ -24,7 +23,7 @@ The primary predictor is the dataset-defined emotional-intensity rating, centere
 
 ## Why this dataset?
 
-The dataset includes 118 healthy adults who continuously verbalized spontaneous thoughts during a 10-minute fMRI session. The extended release provides BIDS-organized MRI data, fMRIPrep/FreeSurfer derivatives, word- and sentence-level timestamps, sentence-level GPT-5 (Nano) ratings across 14 psychological dimensions, and some post-scan questionnaires. Human ratings by four independent raters are available for 18 transcripts selected from the lower-than-median transcript-length group; this subset is useful for sensitivity checks but is not a representative re-rating of the full sample.
+The dataset includes 118 healthy adults who continuously verbalized spontaneous thoughts during a 10-minute fMRI session. The extended release provides BIDS-organized MRI data, fMRIPrep/FreeSurfer derivatives, word- and sentence-level timestamps, sentence-level GPT-5 Nano ratings across 14 psychological dimensions, and some post-scan questionnaires. Human ratings by four independent raters are available for 18 transcripts selected from the lower-than-median transcript-length group; this subset is useful for sensitivity checks but is not a representative re-rating of the full sample.
 
 - **OpenNeuro:** [ds006067, version 2.0.0](https://openneuro.org/datasets/ds006067/versions/2.0.0)
 - **Behavioral annotations and code:** [OSF — Think Aloud Behavioral Data](https://osf.io/a56rm)
@@ -43,38 +42,46 @@ The participants are healthy adults, not an MDD patient cohort. This project is 
 
 The provisional ROI candidates are medial prefrontal cortex (operationalized as the Harvard–Oxford Frontal Medial Cortex label), insular cortex, and bilateral amygdala. This is a candidate ROI family, not a finalized anatomical claim. Exact atlas release, label names, laterality, mask coverage, and resampling to BOLD space must be verified and fixed before inspecting primary effect estimates. Whole-brain analyses, if performed, will be secondary and corrected for multiple comparisons.
 
+## Completed protocol deliverables
+
+| Deliverable | Description |
+| --- | --- |
+| Research question and scope | Defined primary question, aims, and exploratory questions |
+| Focused literature review | Positioned the proposal against dataset-specific and adjacent prior work |
+| Dataset description and QC plan | Documented source versions, variables, provisional QC, and sample-size uncertainty |
+| Methodological framework | Specified the proposed event-related fMRI and ROI workflow |
+| Statistical analysis plan | Documented first-level and group-level modeling, inference, and robustness checks |
+| Limitations and data governance | Defined interpretation boundaries and privacy safeguards |
+| Reproducibility plan | Specified planned code organization, versioning, and reporting requirements |
+
 ## Repository contents
 
 | Path | Purpose |
 |---|---|
-| [`docs/research_protocol.md`](docs/research_protocol.md) | Full proposal, objectives, questions, and hypotheses |
-| [`docs/review_notes.md`](docs/review_notes.md) | Independent review findings and decisions before publication |
-| [`src/audit_bids_dataset.py`](src/audit_bids_dataset.py) | Preliminary BIDS file-inventory utility; not an fMRI QC or analysis pipeline |
-| [`docs/literature_review.md`](docs/literature_review.md) | Related work and scope of the research gap |
-| [`docs/dataset_and_qc.md`](docs/dataset_and_qc.md) | Data sources, variables, sample, quality, and inclusion plan |
-| [`docs/methodology.md`](docs/methodology.md) | Planned transcript-to-fMRI and ROI analysis workflow |
-| [`docs/statistical_analysis_plan.md`](docs/statistical_analysis_plan.md) | GLM specification, inference, and sensitivity analyses |
-| [`docs/limitations_and_ethics.md`](docs/limitations_and_ethics.md) | Scientific, technical, and data-governance limitations |
-| [`docs/reproducibility_plan.md`](docs/reproducibility_plan.md) | Future code, environment, and reporting requirements |
-| [`config/analysis-plan.yaml`](config/analysis-plan.yaml) | Initial machine-readable analysis-plan template |
-| [`CV_ENTRY.md`](CV_ENTRY.md) | Accurate CV wording for the proposal stage |
-| [`PROFILE_TEXT.md`](PROFILE_TEXT.md) | Short GitHub profile description |
+| [Research protocol](docs/research_protocol.md) | Full proposal, objectives, questions, and hypotheses |
+| [Literature review](docs/literature_review.md) | Focused review and positioning |
+| [Dataset and QC plan](docs/dataset_and_qc.md) | Data sources, annotation definitions, sample/QC considerations |
+| [Methodology](docs/methodology.md) | Proposed fMRI workflow and event model |
+| [Statistical analysis plan](docs/statistical_analysis_plan.md) | First-level, group-level, and sensitivity analyses |
+| [Limitations and ethics](docs/limitations_and_ethics.md) | Interpretation, ethics, and data governance |
+| [Reproducibility plan](docs/reproducibility_plan.md) | Planned implementation and reproducibility requirements |
+| [BIDS inventory utility](src/audit_bids_dataset.py) | Preliminary file-inventory script; not an fMRI QC or analysis pipeline |
+| [Project status](PROJECT_STATUS.md) | Explicit separation of completed protocol work and pending empirical analysis |
+| [CV entry](CV_ENTRY.md) | Accurate wording for describing the completed protocol deliverable |
 
-## Planned tools
+## Limitations and interpretation
 
-Python, NumPy, Pandas, SciPy, NiBabel, Nilearn, statsmodels, Matplotlib, and Jupyter. The initial dependency list is a planning aid; exact versions will be pinned after the environment is installed and tested. No executable analysis pipeline is claimed at this stage.
+- The dataset participants are healthy adults; this protocol does not support claims about MDD patients or clinical diagnosis.
+- GPT-generated affective ratings describe transcript content, not a direct measure of internal emotional state.
+- Sentence timestamps mark verbalization, not the onset of the underlying thought.
+- Speech-related motion and physiological effects may confound BOLD estimates.
+- Observational associations do not establish causality.
+- The final usable sample is unknown until the data audit and quality-control procedure are completed.
+- The literature review is focused but not systematic; novelty has not been established.
 
-## Important interpretation boundaries
+## Current status
 
-- The GPT-5 Nano rating is an annotation of transcript content, not a direct measure of felt emotion.
-- BOLD associations are observational and do not establish causality.
-- The onset of verbalization is observed; the exact onset of the underlying thought is not. Conclusions must therefore refer to neural activity associated with verbalized thought, not the neural origin of thought itself.
-- Speech production, auditory feedback, head motion, sentence duration, thought transitions, and topic changes may affect the signal and must be considered.
-- The final number of usable participants is not known until quality control is run.
-- No result, effect size, p-value, or clinical implication is assumed in advance.
+**Completed:** research design and documentation package (version 0.2.0).  
+**Not started:** participant-level data audit, fMRI quality control, event alignment, GLM fitting, group inference, and empirical interpretation.
 
-## Citation
-
-Zhang, M., Liu, P. R., Su, H., Zhao, M., Li, X., Born, S., Lee, Y., Honey, C. J., Chen, J., & Lee, H. (2026). *An fMRI dataset of verbalized spontaneous thought with annotated transcripts and self-report trait measures*. Scientific Data. https://doi.org/10.1038/s41597-026-08414-6
-
-See [`CITATION.cff`](CITATION.cff) for citation metadata for this proposal repository. The underlying dataset article is a peer-reviewed *Scientific Data* descriptor published on 29 September 2026.
+This repository is suitable for presenting a completed research-design and protocol-development project. It must not be described as a completed empirical fMRI study until the analysis has actually been performed and validated.

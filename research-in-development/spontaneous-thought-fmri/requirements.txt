@@ -1,11 +1,11 @@
+# Initial planning dependencies only; not yet tested or version-pinned.
+# Pin exact versions after installing and validating the analysis environment.
 numpy
 pandas
 scipy
-statsmodels
-matplotlib
-seaborn
 nibabel
 nilearn
-pybids
-openpyxl
+statsmodels
+matplotlib
 jupyterlab
+pytest

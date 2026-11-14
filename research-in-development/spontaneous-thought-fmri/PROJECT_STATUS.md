@@ -1,14 +1,15 @@
-# Project status
+# Project Status
 
 | Workstream | Status | Notes |
 | --- | --- | --- |
-| Research question and scope | Drafted | Provisional; subject to literature and feasibility review. |
-| Initial source review | Started | Dataset descriptor, prior thought-transition paper, BIDS and Nilearn documentation identified. |
-| Data download and audit | Not started | Must record exact dataset/OSF versions and file inventory. |
-| Annotation/data dictionary verification | Not started | Column names, scales, coverage, and ID linkage must be confirmed from downloaded files. |
-| Neuroimaging quality control | Not started | Usable fMRI sample not yet established. |
-| First-level models | Not started | No GLM has been fitted. |
-| Group-level analysis | Not started | No statistical results exist. |
-| Figures/report/poster | Not started | To be prepared only after valid analyses. |
+| Research question and scope | Proposal v0.2.0 | Sentence-level dataset-defined emotional-intensity annotation and regional BOLD activity during verbalized spontaneous thought. |
+| Literature review | Focused preliminary review | Not systematic; update before finalizing novelty claims or preregistration. |
+| Dataset feasibility audit | Not started | Verify OpenNeuro/OSF versions, participant joins, annotation coverage, and data-use terms. |
+| Transcript/rating validation | Not started | No join, coverage, or within-participant variability checks have been run. |
+| Neuroimaging quality control | Not started | Final usable sample is unknown. |
+| First-level GLM | Not started | No design matrices or models have been fitted. |
+| ROI/group analysis | Not started | ROI labels and masks remain provisional; no statistical results exist. |
+| Reproducibility pipeline | Scaffold only | A basic BIDS inventory utility exists; it is not an fMRI analysis pipeline. |
+| CV wording | Draft prepared | Use only under Research Projects in Development / Proposed Research. |
 
-**Current public description:** independent research proposal and analysis scaffold. This status is intentionally explicit so the repository and CV do not imply completed experiments or findings.
+**Current public description:** proposed independent secondary-analysis protocol. Empirical analysis has not started. No results, effect sizes, p-values, or clinical conclusions are claimed.

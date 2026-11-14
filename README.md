@@ -26,17 +26,11 @@ Developed an AI-driven framework exploring the use of large language models and 
 **[Computational Modeling of Thought Patterns in Major Depressive Disorder (MDD)](https://github.com/shimynimi/MDD-Thought-Pattern-Modeling)**  
 Co-authored a research project proposing a computational framework for modeling thought patterns associated with Major Depressive Disorder using large language models, concept-space representations, and variational inference. The framework explores the representation and inference of latent thought patterns from psychologist–patient conversational data. This work was presented as poster P42 at the **19th Swedish Cognitive Science Society Conference (SweCog 2024)**. 
 
-## Research Directions in Development
-
-**[Sentence-Level Affective Content and Regional BOLD Activity During Verbalized Spontaneous Thought](https://github.com/shimynimi/shimynimi/tree/main/research-in-development/spontaneous-thought-fmri)**  
-*Proposed Secondary-Analysis Protocol · Computational Neuroscience · fMRI · NLP*
-
-A proposed secondary analysis of OpenNeuro ds006067 investigating within-participant associations between sentence-level affective content and regional BOLD activity during verbalized spontaneous thought. The repository contains the research protocol, literature review, dataset/QC plan, and proposed statistical methodology; empirical analysis has not started.
-
 ## Selected Public Projects
 
 | Project | Focus |
 | --- | --- |
+| [Sentence-Level Affective Content and Regional BOLD Activity](https://github.com/shimynimi/shimynimi/tree/main/research-in-development/spontaneous-thought-fmri) | **Completed research-protocol development** for a proposed secondary analysis of OpenNeuro ds006067, including focused literature review, dataset/QC documentation, methodology, statistical analysis plan, and reproducibility guidance. Empirical fMRI analysis has not started. |
 | [Persian Intent Recognition and Slot Filling](https://github.com/shimynimi/Persian-Intent-Recognition-and-Slot-Filling) | Persian NLP using the MASSIVE `fa-IR` dataset, covering intent classification, slot filling, and intent-conditioned text generation. Includes a reproducible TF–IDF baseline and exploratory Transformer-based experiments. |
 | [Tehran Home Price Prediction](https://github.com/shimynimi/data_science_real_estate_project) | End-to-end machine learning application for real-estate price prediction, combining data analysis, predictive modeling, and a Flask-based web interface. |
 | [Nearpod Sentiment and Topic Analysis](https://github.com/shimynimi/Sentiment-Analysis-of-Nearpod-App) | Exploratory NLP project involving sentiment analysis, unsupervised topic modeling with LDA and CorEx, and thematic analysis of educational-platform feedback. |
